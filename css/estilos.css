@@ -25,6 +25,14 @@ h6 {
   --goldenrob: #e6af2e;
 }
 
+.container {
+  max-width: 1000px;
+  padding: 5px;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+}
+
 .header {
   background-color: var(--dark-green);
   display: flex;
@@ -46,10 +54,53 @@ h6 {
   font-size: 12px;
   font-weight: 500;
 }
+.menu a:hover {
+  color: var(--goldenrob);
+}
 
-.main_title h1 {
+.main {
+  display: flex;
+  justify-content: center;
+}
+.main_section h1 {
   text-align: center;
   color: var(--blood-red);
   font-size: 36px;
   font-weight: 600;
+}
+.main_section p {
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.main_section strong {
+  color: var(--chinese-red);
+}
+.main_section h2 {
+  text-align: center;
+  color: var(--blood-red);
+  font-weight: 600;
+  font-size: 24px;
+}
+.parts_flex1 {
+  display: block;
+  margin: auto;
+}
+
+.direction {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main_section h3 {
+  text-align: center;
+  color: var(--blood-red);
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.direction_image {
+  display: block;
+  margin: auto;
 }

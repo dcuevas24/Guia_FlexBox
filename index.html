@@ -12,20 +12,79 @@
   </head>
   <body>
     <header class="header">
-      <figure class="logo">
-        <a href="index.html"
-          ><img src="imagenes/FLEXBOX.png" alt="logo-guia-flex" width=""
-        /></a>
-      </figure>
-      <nav class="menu">
-        <ol>
-          <li><a href="#" class="link">Container</a></li>
-          <li><a href="#" class="link">Item</a></li>
-        </ol>
-      </nav>
+      <div class="container">
+        <figure class="logo">
+          <a href="index.html"
+            ><img src="imagenes/FLEXBOX.png" alt="logo-guia-flex" width=""
+          /></a>
+        </figure>
+        <nav class="menu">
+          <ol>
+            <li><a href="#" class="link">Container</a></li>
+            <li><a href="#" class="link">Item</a></li>
+          </ol>
+        </nav>
+      </div>
     </header>
     <section class="main">
-      <div class="main_title"><h1>Flexbox</h1></div>
+      <div class="container">
+        <div class="main_section">
+          <h1>¿Qué es Flexbox?</h1>
+          <p>
+            Es un valor que se le puede dar a la propiedad CSS
+            <strong>display</strong> pero este valor trae un conjunto de
+            propiedades para alinear y posicionar los elementos de una página
+            web, las cuales vamos a ver a lo largo de esta guía.
+          </p>
+          <h2>¿Para qué sirve Flexbox?</h2>
+          <p>
+            Sirve para definir la alineación de los <strong>ítems</strong> de un
+            <strong>contenedor</strong> y distribuir el espacio entre ellos.
+            Todo esto se puede hacer en una sola dirección ya sea horizontal o
+            vertical.
+          </p>
+          <h2>Estructura Flexbox</h2>
+          <p>
+            La estructura de Flexbox es sencilla ya que consta de dos partes el
+            contenedor (padre) y los ítems (hijos).
+          </p>
+          <p>
+            <strong>Contenedor (Padre):</strong> es el espacio donde están
+            contenidos todos los ítems. Para definirlo utilizamos la propiedad
+            display: flex.
+          </p>
+          <p>
+            <strong>Ítems (Hijos):</strong> son los elementos que están dentro
+            del contenedor. Su comportamiento es automático según lo que se
+            defina en el padre.
+          </p>
+          <img
+            class="parts_flex1"
+            src="/imagenes/partes_flexbox.png"
+            alt="partes de flexbox"
+            width="400px"
+          />
+          <p>
+            Dentro de las partes de Flexbox también encontramos los ejes los
+            cuales definen la dirección en la que se encuentran los ítems o
+            hijos.
+          </p>
+          <div class="direction">
+            <div class="row">
+              <h3>Fila</h3>
+              <div class="direction_image">
+                <img src="/imagenes/horizontal.png" alt="" width="400" />
+              </div>
+            </div>
+            <div class="column">
+              <h3>Columna</h3>
+              <div class="direction_image">
+                <img src="/imagenes/vertical.png" alt="" height="200" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
