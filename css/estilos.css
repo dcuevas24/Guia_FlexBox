@@ -155,8 +155,6 @@ h6 {
   justify-content: space-around;
   align-items: center;
   height: 70px;
-  position: fixed;
-  bottom: 0;
 }
 .footer small {
   color: white;
