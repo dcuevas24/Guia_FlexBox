@@ -1,4 +1,4 @@
-/* inicio de fuente para iconos de redes sociales*/
+/*====Inicio de fuente para iconos de redes sociales====*/
 @font-face {
   font-family: "icomoon";
   src: url("../fonts/icomoon.eot?ajfbek");
@@ -42,8 +42,9 @@
 .icon-facebook:before {
   content: "\e904";
 }
-/* Fin de fuente para iconos de redes sociales*/
+/*====Fin de fuente para iconos de redes sociales====*/
 
+/*==== Estilos generales ====*/
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -77,7 +78,9 @@ h6 {
   justify-content: inherit;
   align-items: inherit;
 }
+/*==== Fin estilos generales====*/
 
+/*==== Pagina de inicio ====*/
 .header {
   background-color: var(--dark-green);
   display: flex;
@@ -149,9 +152,11 @@ h6 {
 .footer {
   background-color: var(--dark-green);
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   height: 70px;
+  position: fixed;
+  bottom: 0;
 }
 .footer small {
   color: white;
@@ -168,7 +173,7 @@ h6 {
 .social {
   display: flex;
   width: 300px;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .social-icon {
   font-size: 35px;
@@ -177,3 +182,4 @@ h6 {
 .social-icon:hover {
   color: var(--goldenrob);
 }
+/*==== Fin pagina de inicio ====*/
