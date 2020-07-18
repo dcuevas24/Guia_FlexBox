@@ -78,6 +78,14 @@ h6 {
   justify-content: inherit;
   align-items: inherit;
 }
+.container_2 {
+  width: 1000px;
+  display: inherit;
+  border: 2px solid var(--dark-green);
+  border-radius: 2px;
+  margin: inherit;
+  padding: 0 20px;
+}
 /*==== Fin estilos generales====*/
 
 /*==== Pagina de inicio ====*/
@@ -109,15 +117,15 @@ h6 {
 .main {
   display: flex;
   justify-content: center;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
-.main_section h1 {
+.title {
   text-align: center;
   color: var(--blood-red);
   font-size: 36px;
   font-weight: 600;
 }
-.main_section p {
+.paragraph {
   text-align: left;
   font-weight: 500;
   font-size: 16px;
@@ -126,7 +134,7 @@ h6 {
 .main_section strong {
   color: var(--chinese-red);
 }
-.main_section h2 {
+.subtitle {
   text-align: center;
   color: var(--blood-red);
   font-weight: 600;
@@ -181,3 +189,17 @@ h6 {
   color: var(--goldenrob);
 }
 /*==== Fin pagina de inicio ====*/
+
+/*===== Pagina Container=====*/
+.propiedad_flex {
+  margin: 20px auto;
+}
+.container_3 {
+  padding: 0 20px;
+  border: 2px solid var(--blood-red);
+  border-radius: 2px;
+  margin: inherit;
+}
+.container_3 h2 {
+  color: var(--chinese-red);
+}
