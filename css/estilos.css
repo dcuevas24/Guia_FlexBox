@@ -203,3 +203,10 @@ h6 {
 .container_3 h2 {
   color: var(--chinese-red);
 }
+
+.language {
+  background-color: #404040;
+}
+.language_css {
+  font-size: 18px;
+}
