@@ -206,7 +206,46 @@ h6 {
 
 .language {
   background-color: #404040;
+  height: 130px;
+  border-radius: 5px;
 }
 .language_css {
   font-size: 18px;
+  font-weight: 600;
+}
+.selector {
+  color: #2ecc71;
+}
+.points {
+  color: white;
+}
+.property {
+  color: #3498db;
+}
+.value {
+  color: #a569bd;
+}
+
+.container_4 {
+  border: 2px dashed var(--chinese-red);
+  border-radius: 2px;
+  margin-bottom: 10px;
+  width: 500px;
+  height: 120px;
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+}
+.item {
+  background-color: var(--goldenrob);
+  border: 1px solid var(--blood-red);
+  border-radius: 2px;
+  color: var(--dark-green);
+  font-weight: 600;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  margin: 2px;
 }
