@@ -250,3 +250,16 @@ h6 {
   height: 50px;
   margin: 2px;
 }
+
+.container_5 {
+  border: 2px dashed var(--chinese-red);
+  border-radius: 2px;
+  margin-bottom: 10px;
+  width: 500px;
+  height: 120px;
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row-reverse;
+}
