@@ -244,7 +244,10 @@ h6 {
 .container_5,
 .container_8,
 .container_9,
-.container_10 {
+.container_10,
+.container_11,
+.container_12,
+.container_13 {
   border: 2px dashed var(--chinese-red);
   border-radius: 2px;
   margin-bottom: 10px;
@@ -297,4 +300,16 @@ h6 {
 .container_10 {
   display: flex;
   flex-wrap: wrap-reverse;
+}
+.container_11 {
+  display: flex;
+  justify-content: flex-start;
+}
+.container_12 {
+  display: flex;
+  justify-content: flex-end;
+}
+.container_13 {
+  display: flex;
+  justify-content: center;
 }
