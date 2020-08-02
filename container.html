@@ -84,6 +84,218 @@
               <div class="item">3</div>
             </div>
           </div>
+          <div class="container_3">
+          <h2 class="subtitle">flex-direction: column</h2>
+          <p class="paragraph">
+            Define la dirección vertical para el eje principal y acomoda los ítems de arriba hacia abajo.
+          </p>
+            <pre class="language">
+      <code class="language_css">
+      <span class="selector">.container</span><span class="points"> {</span>
+        <span class="property">display</span><span class="points">:</span><span class="value"> flex</span><span class="points">;</span>
+        <span class="property">flex-direction</span><span class="points">:</span><span class="value">column</span><span class="points">;</span>
+      <span class="points">}</span>
+      </code>
+          </pre>
+            <div class="container_6">
+              <div class="item">1</div>
+              <div class="item">2</div>
+              <div class="item">3</div>
+            </div>
+          </div>
+          <div class="container_3">
+          <h2 class="subtitle">flex-direction: column-reverse</h2>
+          <p class="paragraph">
+            Define la dirección vertical para el eje principal y acomoda los ítems de abajo hacia hacia.
+          </p>
+            <pre class="language">
+      <code class="language_css">
+      <span class="selector">.container</span><span class="points"> {</span>
+        <span class="property">display</span><span class="points">:</span><span class="value"> flex</span><span class="points">;</span>
+        <span class="property">flex-direction</span><span class="points">:</span><span class="value">column-reverse</span><span class="points">;</span>
+      <span class="points">}</span>
+      </code>
+          </pre>
+            <div class="container_7">
+              <div class="item">1</div>
+              <div class="item">2</div>
+              <div class="item">3</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="propiedad_flex">
+      <div class="container_2">
+        <h2 class="subtitle">flex-wrap</h2>
+        <p class="paragraph">
+          Esta propiedad evita el desbordamiento de los ítems es decir establece si los ítems estarán en una sola línea o varias líneas. 
+        </p>
+        <div class="container_3">
+          <h2 class="subtitle">flex-wrap: nowrap</h2>
+          <p class="paragraph">
+            Es el valor por defecto. Todos los ítems estarán a lo largo de una sola línea. Notamos que en el ejemplo los items cambian su tamaño.
+          </p>
+            <pre class="language">
+      <code class="language_css">
+      <span class="selector">.container</span><span class="points"> {</span>
+        <span class="property">display</span><span class="points">:</span><span class="value"> flex</span><span class="points">;</span>
+        <span class="property">flex-warp</span><span class="points">:</span><span class="value"> nowrap</span><span class="points">;</span>
+      <span class="points">}</span>
+      </code>
+          </pre>
+            <div class="container_8">
+              <div class="item">1</div>
+              <div class="item">2</div>
+              <div class="item">3</div>
+              <div class="item">4</div>
+              <div class="item">5</div>
+              <div class="item">6</div>
+              <div class="item">7</div>
+              <div class="item">8</div>
+              <div class="item">9</div>
+              <div class="item">10</div>
+            </div>
+          </div>
+          <div class="container_3">
+          <h2 class="subtitle">flex-wrap: wrap</h2>
+          <p class="paragraph">
+            Los ítems se colocan en varias líneas de arriba hacia abajo. Un ítem cambia de línea cuando su tamaño es mayor al espacio entre el ultimo ítem y el borde del container. 
+          </p>
+            <pre class="language">
+      <code class="language_css">
+      <span class="selector">.container</span><span class="points"> {</span>
+        <span class="property">display</span><span class="points">:</span><span class="value"> flex</span><span class="points">;</span>
+        <span class="property">flex-wrap</span><span class="points">:</span><span class="value"> wrap</span><span class="points">;</span>
+      <span class="points">}</span>
+      </code>
+          </pre>
+            <div class="container_9">
+              <div class="item">1</div>
+              <div class="item">2</div>
+              <div class="item">3</div>
+              <div class="item">4</div>
+              <div class="item">5</div>
+              <div class="item">6</div>
+              <div class="item">7</div>
+              <div class="item">8</div>
+              <div class="item">9</div>
+              <div class="item">10</div>
+            </div>
+          </div>
+          <div class="container_3">
+          <h2 class="subtitle">flex-direction: wrap-reverse</h2>
+          <p class="paragraph">
+            Los ítems se colocan en diferentes líneas de abajo hacia arriba.
+          </p>
+            <pre class="language">
+      <code class="language_css">
+      <span class="selector">.container</span><span class="points"> {</span>
+        <span class="property">display</span><span class="points">:</span><span class="value"> flex</span><span class="points">;</span>
+        <span class="property">flex-wrap</span><span class="points">:</span><span class="value"> wrap-reverse</span><span class="points">;</span>
+      <span class="points">}</span>
+      </code>
+          </pre>
+            <div class="container_10">
+              <div class="item">1</div>
+              <div class="item">2</div>
+              <div class="item">3</div>
+              <div class="item">4</div>
+              <div class="item">5</div>
+              <div class="item">6</div>
+              <div class="item">7</div>
+              <div class="item">8</div>
+              <div class="item">9</div>
+              <div class="item">10</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="propiedad_flex">
+      <div class="container_2">
+        <h2 class="subtitle">justify-content</h2>
+        <p class="paragraph">
+          Cambia la orientación del eje principal, es decir define la dirección
+          que tienen los ítems. Esta dirección puede ser horizontal o vertical.
+        </p>
+        <div class="container_3">
+          <h2 class="subtitle">flex-direction: row</h2>
+          <p class="paragraph">
+            Es el valor por defecto. Define la dirección horizontal para el eje
+            principal y acomoda los ítems de izquierda a derecha.
+          </p>
+            <pre class="language">
+      <code class="language_css">
+      <span class="selector">.container</span><span class="points"> {</span>
+        <span class="property">display</span><span class="points">:</span><span class="value"> flex</span><span class="points">;</span>
+        <span class="property">flex-direction</span><span class="points">:</span><span class="value"> row</span><span class="points">;</span>
+      <span class="points">}</span>
+      </code>
+          </pre>
+            <div class="container_4">
+              <div class="item">1</div>
+              <div class="item">2</div>
+              <div class="item">3</div>
+            </div>
+          </div>
+          <div class="container_3">
+          <h2 class="subtitle">flex-direction: row-reverse</h2>
+          <p class="paragraph">
+            Define la dirección horizontal para el eje principal y acomoda los ítems de derecha a izquierda.
+          </p>
+            <pre class="language">
+      <code class="language_css">
+      <span class="selector">.container</span><span class="points"> {</span>
+        <span class="property">display</span><span class="points">:</span><span class="value"> flex</span><span class="points">;</span>
+        <span class="property">flex-direction</span><span class="points">:</span><span class="value"> row-reverse</span><span class="points">;</span>
+      <span class="points">}</span>
+      </code>
+          </pre>
+            <div class="container_5">
+              <div class="item">1</div>
+              <div class="item">2</div>
+              <div class="item">3</div>
+            </div>
+          </div>
+          <div class="container_3">
+          <h2 class="subtitle">flex-direction: column</h2>
+          <p class="paragraph">
+            Define la dirección vertical para el eje principal y acomoda los ítems de arriba hacia abajo.
+          </p>
+            <pre class="language">
+      <code class="language_css">
+      <span class="selector">.container</span><span class="points"> {</span>
+        <span class="property">display</span><span class="points">:</span><span class="value"> flex</span><span class="points">;</span>
+        <span class="property">flex-direction</span><span class="points">:</span><span class="value">column</span><span class="points">;</span>
+      <span class="points">}</span>
+      </code>
+          </pre>
+            <div class="container_6">
+              <div class="item">1</div>
+              <div class="item">2</div>
+              <div class="item">3</div>
+            </div>
+          </div>
+          <div class="container_3">
+          <h2 class="subtitle">flex-direction: column-reverse</h2>
+          <p class="paragraph">
+            Define la dirección vertical para el eje principal y acomoda los ítems de abajo hacia hacia.
+          </p>
+            <pre class="language">
+      <code class="language_css">
+      <span class="selector">.container</span><span class="points"> {</span>
+        <span class="property">display</span><span class="points">:</span><span class="value"> flex</span><span class="points">;</span>
+        <span class="property">flex-direction</span><span class="points">:</span><span class="value">column-reverse</span><span class="points">;</span>
+      <span class="points">}</span>
+      </code>
+          </pre>
+            <div class="container_7">
+              <div class="item">1</div>
+              <div class="item">2</div>
+              <div class="item">3</div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
